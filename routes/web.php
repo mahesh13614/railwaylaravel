@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/sample', function () {
-    return view('sample');
-});
+    return view('sample', ['timestamp' => now()]);
+})->name('sample');

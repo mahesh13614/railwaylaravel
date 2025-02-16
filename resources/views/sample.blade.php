@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Sample</h1>
-    <p>Deployment Test: <?php echo date('Y-m-d H:i:s'); ?></p>
+    <p>Deployment Test: {{ $timestamp }}</p>
 </body>
 </html>
