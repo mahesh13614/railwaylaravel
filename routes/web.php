@@ -6,6 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/sample', function () {
-    return view('sample', ['timestamp' => now()]);
-})->name('sample');
+Route::get('/sample', [App\Http\Controllers\SampleController::class, 'index'])->name('sample');
