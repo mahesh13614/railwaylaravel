@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Sample</h1>
-    <p>Deployment Test: {{ $timestamp }}</p>
+    <p>GitHub Deployment Test: <?php echo date('Y-m-d H:i:s'); ?></p>
+    <p>Testing Railway GitHub Integration</p>
 </body>
 </html>
